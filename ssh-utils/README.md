@@ -1,27 +1,4 @@
-# How to setup:
-
-## *nix
-```sh
-$ python -m venv ssh-utils-venv
-$ source ./ssh-utils-venv/bin/activate
-$ pip install --upgrade pip
-$ pip install -r ./requirements.txt
-```
-
-## Windows
-Ensure RemoteSigned execution policy is enabled for CurrentUser
-```powershell
-PS> Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-```
-
-```powershell
-PS> python -m venv ssh-utils-venv
-PS> .\ssh-utils-venv\Scripts\Activate.ps1
-PS> python -m pip install --upgrade pip
-PS> pip install -r .\requirements.txt
-```
-
-## Sample run:
+# Sample run:
 The script will create an id_rsa on the current directory and show the public key
 ```sh
 $ python ./generate_ssh_key.py
