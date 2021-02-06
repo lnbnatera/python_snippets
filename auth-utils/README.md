@@ -1,5 +1,10 @@
-# Sample run:
-The script will create an id_rsa on the current directory and show the public key
+# Sample runs:
+
+```sh
+$ python ./encrypt_password.py
+Encrypted shadow is: $6$rounds=656000$C/VvOo1sgsiF9a1U$jKrukMhRJdkut/ss6owHW/lGyZUL9.v4yZ63qOmbEhqDJ.vWbYC27IDpJtiwLCaA3YfIzWUgvi50Ex0CNxvZ8/
+```
+
 ```sh
 $ python ./generate_ssh_key.py
 0rtuUlAsNkaHJeEak3/W5Yx+8zJicVaf7N2XuGUW2dJdAtUqPpImVTeOVentww==
